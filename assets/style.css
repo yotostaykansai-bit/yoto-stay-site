@@ -27,3 +27,8 @@ th{background:#f4f1ea;white-space:nowrap}
 ul.check{list-style:none;padding-left:0}
 ul.check li{margin:6px 0}
 .cta-btn{display:inline-block;background:var(--accent);color:#fff;padding:12px 22px;border-radius:999px;font-weight:700;margin:8px 8px 4px 0}
+.hero-img{width:100%;border-radius:16px;margin:20px 0 4px;display:block}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:16px 0}
+.gallery figure{margin:0}
+.gallery img{width:100%;object-fit:cover;border-radius:12px;aspect-ratio:4/3;display:block}
+.gallery figcaption{font-size:.85rem;color:#666;margin-top:5px}
